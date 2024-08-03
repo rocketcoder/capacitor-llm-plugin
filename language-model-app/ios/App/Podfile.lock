@@ -1,0 +1,40 @@
+PODS:
+  - Capacitor (6.1.1):
+    - CapacitorCordova
+  - CapacitorCordova (6.1.1)
+  - LanguageModelPlugin (0.0.1):
+    - Capacitor
+    - MediaPipeTasksGenAI (~> 0.10.14)
+    - MediaPipeTasksGenAIC (~> 0.10.14)
+  - MediaPipeTasksGenAI (0.10.14):
+    - MediaPipeTasksGenAIC (= 0.10.14)
+  - MediaPipeTasksGenAIC (0.10.14)
+
+DEPENDENCIES:
+  - "Capacitor (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorCordova (from `../../node_modules/@capacitor/ios`)"
+  - LanguageModelPlugin (from `../../../language-model-plugin`)
+
+SPEC REPOS:
+  trunk:
+    - MediaPipeTasksGenAI
+    - MediaPipeTasksGenAIC
+
+EXTERNAL SOURCES:
+  Capacitor:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorCordova:
+    :path: "../../node_modules/@capacitor/ios"
+  LanguageModelPlugin:
+    :path: "../../../language-model-plugin"
+
+SPEC CHECKSUMS:
+  Capacitor: 8941aba4364ba9d1b22188569001f2ce45cc2b00
+  CapacitorCordova: 8f2cc8d8d3619c566e9418fe8772064a94266106
+  LanguageModelPlugin: 6ca0355a752349f94102da30ed50d34cfdd2ede7
+  MediaPipeTasksGenAI: 8cd77fa32ea21f7a6319b025aa28cfc3e20ab73b
+  MediaPipeTasksGenAIC: 270ec81f85e96fac283945702e34112ebbfd5e77
+
+PODFILE CHECKSUM: 56265967c9b5ce64af6c7fb23a2f9a680f2fd78d
+
+COCOAPODS: 1.15.2

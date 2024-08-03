@@ -1,0 +1,1 @@
+{"version":3,"file":"definitions.js","sourceRoot":"","sources":["../../src/definitions.ts"],"names":[],"mappings":"","sourcesContent":["export interface InferencePlugin {\n  generate(options: { value: string }): Promise<{ value: string }>;\n  generateStreaming(options: { value: string }): Promise<{ value: string }>;\n}\n"]}

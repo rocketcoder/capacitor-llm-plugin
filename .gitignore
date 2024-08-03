@@ -1,0 +1,42 @@
+# Dependencies
+node_modules
+
+# Build output
+/dist
+
+# Local env files
+.env
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# MacOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+
+# VS Code
+.vscode/
+.history/
+
+# Local Vite server logs
+vite-error.log
+
+#model files
+*.bin
