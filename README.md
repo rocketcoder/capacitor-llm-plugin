@@ -10,7 +10,13 @@ The repo has two projects in it.
 An example capacitor app 
 the plugin
 
-To use the plugin add a reference to your app in the packages.json.  (The reference is the folder where the plugin exists.)
+The plugin is available on npm.
+
+```bash
+    npm install language-model-plugin
+```
+
+You may also wish to link the plugin via your local file ssystem if you are developing the plugin.  Add a reference to the plugin in your app in the packages.json.  (The reference is the folder where the plugin exists.)
 
 ```json
 "language-model-plugin": "file:../language-model-plugin"
