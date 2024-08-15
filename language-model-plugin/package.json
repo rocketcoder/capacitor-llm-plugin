@@ -1,7 +1,7 @@
 {
   "name": "language-model-plugin",
-  "version": "0.0.3",
-  "description": "Enabled on device inferencing using Mediapipe LLM.",
+  "version": "0.0.4",
+  "description": "Enable on device inferencing using Mediapipe LLM.",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
