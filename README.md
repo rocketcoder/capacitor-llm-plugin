@@ -5,6 +5,7 @@ This capacitorjs plugin allows you to use on device llms like gemma-2b for infer
 
 Currently the plugin is only available for iOS, Android is coming soon.
 
+
 ## Setup
 The repo has two projects in it.  
 An example capacitor app 
@@ -30,11 +31,9 @@ Here’s a simple example of how to use the plugin in your application:
 
 ```javascript
 import { Inference } from 'language-model-plugin';
-async function doInference(e){
-        e.preventDefault();
-        setMessageStream([]);
-        const result = await Inference.generate({"value":promptRef.current.value});
-        setLastMessage(result.value);
+async function doInference(data){
+        const result = await Inference.generate({"value":data});
+        return result;
     }
 ```
 
@@ -76,4 +75,5 @@ function AIModel() {
 export default AIModel
 ```
 
-More details coming soon...
+## Custom models and LoRA Support
+Mediapipe llm supports LoRA adapters!  This plugin uses gemma 2b by default but you can change that.  In the InferencePlugin class you will need to update the modelName and adapterName properties.  Then you will need to add both the model and adapter .bin files to the application bundle.  In Xcode under the application settings -> Build Phases -> Copy Bundle Resources.  In Android Studio copy the .bin files to the assests folder 
